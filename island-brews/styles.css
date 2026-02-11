@@ -1,0 +1,198 @@
+/* ====================
+   Island Brews Menu Styles
+   ==================== */
+
+/* ====================
+   Reset & Base Styles
+   ==================== */
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Segoe UI', Tahoma, sans-serif;
+   font-size: 16px;
+   line-height: 1.6;
+   color: #3E2723;
+   /* Dark Roast */
+   background: #FFF4F0;
+   /* Cream */
+   margin: 0;
+   padding: 0;
+}
+
+/* ====================
+   Typography
+   ==================== */
+
+h1,
+h2 {
+   font-family: Georgia, serif;
+   color: #5D4037;
+   /* Coffee Brown */
+}
+
+h1 {
+   font-size: 2em;
+}
+
+h2 {
+   font-size: 1.5em;
+   margin-top: 24px;
+}
+
+p {
+   margin: 16px 0;
+}
+
+/* ====================
+   Links
+   ==================== */
+
+a {
+   color: #5D4037;
+   /* Coffee Brown */
+   text-decoration: none;
+}
+
+a:hover,
+a:focus {
+   color: #8D6E63;
+   /* Light Brown */
+}
+
+/* ====================
+   Header
+   ==================== */
+
+header {
+   background: #5D4037;
+   /* Coffee Brown */
+   color: #FFFAF0;
+   /* Cream */
+   padding: 16px;
+}
+
+/* ====================
+   Navigation
+   ==================== */
+
+nav ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+nav li {
+   display: inline-block;
+   margin-right: 16px;
+}
+
+nav a {
+   color: #FFFAF0;
+   /* Cream */
+   padding: 8px 12px;
+}
+
+nav a:hover,
+nav a:focus {
+   background: #8D6E63;
+   /* Light Brown */
+   border-radius: 4px;
+}
+
+/* ====================
+   Main Content
+   ==================== */
+
+main {
+   padding: 24px;
+}
+
+/* ====================
+   Menu Sections
+   ==================== */
+
+section {
+   background: #FFF3E0;
+   /* Light Peach */
+   padding: 24px;
+   margin-bottom: 24px;
+   border-radius: 8px;
+}
+
+/* ====================
+   Tables
+   ==================== */
+
+table {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+th {
+   background: #5D4037;
+   /* Coffee Brown */
+   color: #FFFFFF;
+   padding: 12px;
+   text-align: left;
+}
+
+td {
+   padding: 12px;
+   border-bottom: 1px solid #D7CCC8;
+   /* Warm Gray */
+}
+
+tbody tr:nth-child(even) {
+   background: #FFF3E0;
+   /* Light Peach */
+}
+
+tbody tr:nth-child(odd) {
+   background: #FFFFFF;
+}
+
+td:nth-child(3),
+td:nth-child(4) {
+   text-align: right;
+   color: #C65500;
+   /* Tropical Orange */
+   font-weight: bold;
+}
+
+/* ====================
+   Sidebar (Add-Ons)
+   ==================== */
+
+aside {
+   background: #FFFFFF;
+   border: 1px solid #D7CCC8;
+   /* Warm Gray */
+   padding: 16px;
+   border-radius: 8px;
+}
+
+aside ul {
+   list-style: none;
+   padding: 0;
+}
+
+aside li {
+   margin-bottom: 8px;
+}
+
+/* ====================
+   Footer
+   ==================== */
+
+footer {
+   background: #5D4037;
+   /* Coffee Brown */
+   color: #FFFAF0;
+   /* Cream */
+   text-align: center;
+   padding: 16px;
+   margin-top: 32px;
+}
