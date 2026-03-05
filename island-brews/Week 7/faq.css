@@ -1,0 +1,237 @@
+/* ===================
+   Island Brews FAQ Styles
+   =================== */
+
+/* ===================
+   Reset & Base Styles
+   =================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #3E2723;
+  background-color: #FFFAF0;
+}
+
+/* ===================
+   Header & Navigation
+   =================== */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5D4037;
+  padding: 16px 24px;
+}
+
+.logo {
+  font-family: Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FFFAF0;
+}
+
+nav ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+nav a {
+  color: #FFFAF0;
+  text-decoration: none;
+  padding: 8px 12px;
+}
+
+nav a:hover {
+  color: #8D6E63;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+/* ===================
+   Footer
+   =================== */
+
+footer {
+  background-color: #5D4037;
+  color: #FFFAF0;
+  text-align: center;
+  padding: 20px;
+}
+
+/* ===================
+   FAQ Section Layout
+   =================== */
+
+.faq {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.faq h2 {
+  font-family: Georgia, serif;
+  color: #5D4037;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.faq-item {
+  margin-bottom: 8px;
+}
+
+/* ===================
+   PART 2: FAQ Styling
+   =================== */
+
+/* Step 1: Style the FAQ question buttons */
+.faq-question {
+  width: 100%;
+  /* full width */
+  text-align: left;
+  /* left aligned text */
+  padding: 16px;
+  /* spacing */
+  font-size: 1.1rem;
+  /* readable size */
+  font-weight: bold;
+  /* emphasis */
+  color: #5D4037;
+  /* coffee brown */
+  background: #FFF3E0;
+  /* light peach */
+  border: 1px solid #D7CCC8;
+  /* warm gray border */
+  cursor: pointer;
+  /* clickable */
+}
+
+/* Step 2: Hover effect */
+.faq-question:hover {
+  background: #D7CCC8;
+  /* warm gray */
+}
+
+/* Step 3: FAQ answers */
+.faq-answer {
+  padding: 16px;
+  /* spacing */
+  background: #FFFAF0;
+  /* cream */
+  border: 1px solid #D7CCC8;
+  /* warm gray */
+  border-top: none;
+  /* avoid double border */
+}
+
+/* Step 4: Hide answers with hidden attribute */
+.faq-answer[hidden] {
+  display: none;
+  /* required for accordion */
+}
+
+/* ===================
+   PART 3: Theme Toggle Button
+   =================== */
+
+.theme-toggle {
+  background: #5D4037;
+  /* coffee brown */
+  color: white;
+  /* white text */
+  border: none;
+  /* clean look */
+  padding: 8px 16px;
+  /* spacing */
+  border-radius: 4px;
+  /* rounded */
+  cursor: pointer;
+  /* clickable */
+}
+
+.theme-toggle:hover {
+  background: #8D6E63;
+  /* light brown */
+}
+
+/* ===================
+   PART 4: Dark Mode Overrides
+   =================== */
+
+body.dark-mode {
+  background-color: #3E2723;
+  /* dark background */
+  color: #EFEBE9;
+  /* dark text */
+}
+
+body.dark-mode header {
+  background-color: #4E342E;
+  /* dark alt background */
+}
+
+body.dark-mode nav a {
+  color: #EFEBE9;
+  /* dark text */
+}
+
+body.dark-mode nav a:hover {
+  color: #FFB74D;
+  /* dark accent */
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3 {
+  color: #BCAAA4;
+  /* dark primary */
+}
+
+body.dark-mode .faq-question {
+  background: #4E342E;
+  /* dark alt background */
+  color: #EFEBE9;
+  /* dark text */
+  border-color: #5D4037;
+  /* dark border */
+}
+
+body.dark-mode .faq-question:hover {
+  background: #5D4037;
+  /* dark border color */
+}
+
+body.dark-mode .faq-answer {
+  background: #3E2723;
+  /* dark background */
+  color: #EFEBE9;
+  /* dark text */
+  border-color: #5D4037;
+  /* dark border */
+}
+
+body.dark-mode .theme-toggle {
+  background: #BCAAA4;
+  /* dark primary */
+  color: #3E2723;
+  /* dark background */
+}
+
+body.dark-mode .theme-toggle:hover {
+  background: #D7CCC8;
+  /* warm gray */
+}
+
+body.dark-mode footer {
+  background-color: #4E342E;
+  /* dark alt background */
+}
