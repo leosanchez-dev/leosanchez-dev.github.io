@@ -1,0 +1,44 @@
+<footer>
+    <p>&copy; 2026 Island Brews. All rights reserved.</p>
+
+    <div class="credits">
+        <p>Photo Credits:</p>
+        <ul>
+            <li>
+                Volcanic Mocha: Photo by
+                <a href="https://unsplash.com/@nate_dumlao" target="_blank" rel="noopener noreferrer">
+                    Nathan Dumlao
+                </a>
+                on
+                <a href="https://unsplash.com/photos/6VhPY27jdps" target="_blank" rel="noopener noreferrer">
+                    Unsplash
+                </a>
+            </li>
+
+            <li>
+                Tropical Cold Brew: Photo by
+                <a href="https://unsplash.com/@nate_dumlao" target="_blank" rel="noopener noreferrer">
+                    Nathan Dumlao
+                </a>
+                on
+                <a href="https://unsplash.com/photos/6VhPY27jdps" target="_blank" rel="noopener noreferrer">
+                    Unsplash
+                </a>
+            </li>
+
+            <li>
+                Macadamia Latte: Photo by
+                <a href="https://unsplash.com/@sincerelymedia" target="_blank" rel="noopener noreferrer">
+                    Sincerely Media
+                </a>
+                on
+                <a href="https://unsplash.com/photos/8eQG9l2O1xA" target="_blank" rel="noopener noreferrer">
+                    Unsplash
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
+
+
+
